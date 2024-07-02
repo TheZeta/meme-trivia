@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.questionBox {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(115deg, rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url('https://r4.wallpaperflare.com/wallpaper/613/126/432/memes-painting-hd-wallpaper-a6ff93e6eaa5f9bd35905595d4615dee.jpg') no-repeat center / cover;
+    color: #eee;
+}

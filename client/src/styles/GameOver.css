@@ -1,0 +1,41 @@
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-over-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.game-over-buttons {
+  display: flex;
+}
+
+.game-over-button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.game-over-button:hover {
+  background-color: #2980b9;
+}
+
+.game-over-button:last-child {
+  background-color: #2ecc71;
+}
+
+.game-over-button:last-child:hover {
+  background-color: #27ae60;
+}

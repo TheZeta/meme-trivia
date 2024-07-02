@@ -1,0 +1,12 @@
+.home-container {
+  width: 650px;
+  background-color: rgb(128, 128, 128, 0.7);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+  text-align: center;
+}

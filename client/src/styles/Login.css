@@ -1,0 +1,61 @@
+.form-container {
+  display: grid;
+  row-gap: 20px;
+  padding: 0 30px;
+}
+
+.form-container .form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-container .form-group label {
+  flex: 0 0 100px;
+}
+
+.form-container .form-group input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.login-register-form {
+  width: 550px;
+  background-color: gray;
+  position: fixed;
+  height: auto;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1b1b32cc;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.login-register-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.form-btn button {
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.form-btn button:hover {
+  background-color: rgba(30, 143, 255, 0.829);
+}
